@@ -8,7 +8,6 @@ require("dotenv").config(); // allow me to get var from .env file
 const cors = require("cors");
 server.use(cors());
 const handlers = require("./handlers");
-const { default: axios } = require("axios");
 
 const PORT = process.env.PORT || 3001;
 
